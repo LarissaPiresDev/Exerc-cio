@@ -1,0 +1,127 @@
+z/* css reset */
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+body{
+    font-family: tahoma;
+}
+main{
+    width:100%;
+    height:auto;
+    margin:auto;
+    background-color:rgb(255, 255, 255);
+}
+
+header{
+    width:100%;
+    height:120px;
+    background-color:#13c4af;
+    display:flex;
+    align-items:center;
+}
+
+.topo{
+    width:80%;
+    height:40px;
+    background: color rgb(74, 0, 148);
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.lupa{
+    width: 40px;
+    
+}
+
+.tamanho{
+    width: 150px;
+    height: 30px;
+    border-radius: 2px;
+}
+
+nav{
+    width:100%;
+    height:50px;
+    background-color:rgb(17, 17, 17);
+}
+#container{
+    width: 80%;
+    height: 50px;
+    background-color: rgb(17, 17, 17);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cont_esquerda{
+    width: 30%;
+    height: 50%;
+    background-color: rgb(161, 72, 72);
+}
+.cont_esquerda, .icons{
+    width: 40%;
+    height: 50px;
+    background-color: rgb(17, 17, 17);
+    
+}
+
+.icons{
+    width:auto;
+    height: auto;
+}
+
+
+
+.cont_esquerda a{
+    color:rgb(138, 138, 138);
+    text-decoration: none;
+    font-weight: normal;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+#secao_principal{
+    width:80%;
+    height:500px;
+    background-color:rgb(0, 0, 0);
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    flex-direction: row;
+}
+
+article{
+    width: 60%;
+    height: 500px;
+    background-color: #ffffff;
+}
+article h2{
+    font-weight: normal;
+}
+
+article img{
+    width: 60%;
+    float: left;
+    margin: 30px;
+}
+
+#secao_secundaria{
+    width: 100%;
+    height:500px;
+    background-color:rgb(255, 255, 255);
+}
+
+footer{
+    width:100%;
+    height:50px;
+    background: color #13c4af;
+}
